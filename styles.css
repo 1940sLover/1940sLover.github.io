@@ -1,0 +1,83 @@
+/*
+  Name: Mary Epler
+  Date: 7/22/2020
+  Assignment: Online Profile
+  Filename: styles.css
+*/
+body {background-color: #ffe6ff;}
+header {text-align: left;
+        background-image: url(images/compHeader.webp);
+        background-size: cover;
+        padding: 14%;
+        color: #ff99ff;
+        text-shadow: 2px 4px black;
+        font-family: 'Berkshire Swash', cursive;
+        box-shadow: 0 5px 10px gray;}
+
+.homeHead {margin-top: 30px;}
+
+h2 {text-shadow: 2px 2px black;}
+h3 {text-align: center;}
+
+.sidePhoto {width: 400px;
+     float: left;
+     margin: 2%;}
+.centerImage {text-align: center;}
+
+.navigate {display:flex;
+           flex-wrap: wrap;
+           text-align: center;
+           margin-top: 2%;}
+
+.navigate a {background-color: lightgray;
+             color: black;
+             box-shadow: 1px 1px 5px gray;
+             padding: 10px 40px;
+             margin: 20px;
+             text-decoration: none;
+             flex: 1;}
+
+.navigate a:hover {color: black;
+                  background-color: #ff99ff;
+                  padding: 10px 50px;
+                  box-shadow: 20px 10px 5px gray;}
+/*container that holds everything*/
+.border {box-shadow: 1px 1px 5px gray;
+         margin: 2%;
+         background-color: white;}
+
+/*first container on about page*/
+.aboutCon {display: flex;
+           align-items: center;
+           text-align: center;
+           margin-top: 5%;
+           box-shadow: 2px 4px 15px #ff99ff;}
+
+/*styling for my Experience (classes taken) on about page*/
+.exper {
+        margin-top: 5%;
+        /* background-image: url(images/comp.webp);
+        background-size: cover; */
+        padding: 5%;
+        margin-bottom: 5%;}
+
+.aboutCon2 {display: flex;
+            flex-wrap: wrap;
+            margin: 3%;}
+.hobbies {margin-bottom: 5%;
+          border: 4px double #ffccff;
+          box-shadow: 1px 2px 5px gray;
+          padding: 5%;}
+.prog {flex-basis: 100%;
+       color: black;
+       text-shadow: 2px 2px white;}
+.classes {flex:1;}
+
+/*push container past the floated image*/
+.border::after{content: "";
+               display: block;
+               clear:both;}
+
+.exper::after{content: "";
+              display: block;
+              clear:both;}
