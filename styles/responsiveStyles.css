@@ -1,3 +1,10 @@
+/*
+  Name: Mary Epler
+  Date: 7/22/2020
+  Assignment: Online Profile
+  Filename: responsiveStyles.css
+*/
+
 /* home page */
 .homeMain {background-image: none; justify-content: flex-start;}
 .homePic {display: block; width: 70%;}
@@ -54,7 +61,6 @@
   .headerText {font-size: 4em;}
   .homeHead {font-size: 1.5em; text-shadow: 1px 1px black;}
   .homeMain {margin: 2%;}
-
 
   /* about page */
   .aboutCon2 {margin-left: 1%;}

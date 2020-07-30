@@ -17,32 +17,9 @@ header {text-align: left;
        background-color: #cc0052;
        color:#ffe6ff;
        padding: 2px;}
-/* home page */
-.homeHead {margin-top: 30px;}
-.homeMain {background-image: url(../images/meCat1.jpg);
-           margin: 10%;
-           background-size: cover;
-           display: flex;
-           justify-content: flex-end;
-           box-shadow: 2px 4px 5px gray;}
 
-.homeContent {background-color: white;
-              opacity: 0.85;
-              padding: 2% 2% 16% 2%;
-              box-shadow: 2px 4px 5px gray;
-              text-align: center;}
-.homePic {display: none;}
-.wordh3 {margin-top: 30%;}
-.left {float:left;}
-.right {float: right;}
-.swirl1 {height: 750px;
-         width: 70px;
-         margin-top: 5%;}
 h2 {text-shadow: 2px 2px black;}
 h3 {text-align: center; font-family: 'Berkshire Swash', cursive;}
-
-
-.centerImage {text-align: center;}
 
 /* navigation styling */
 .navigate {display:flex;
@@ -63,23 +40,51 @@ h3 {text-align: center; font-family: 'Berkshire Swash', cursive;}
                   padding: 10px 50px;
                   box-shadow: 20px 10px 5px gray;}
 
-.fas {color: #cc0052; font-size: 2em;}
-
 /*container that holds everything*/
 .border {box-shadow: 1px 1px 5px gray;
          margin: 2%;
          background-color: white;}
 
+/*push container past the floated image*/
+.border::after{content: "";
+               display: block;
+               clear:both;}
+
+/* home page */
+.homeHead {margin-top: 30px;}
+.homeMain {background-image: url(../images/meCat1.jpg);
+           margin: 10%;
+           background-size: cover;
+           display: flex;
+           justify-content: flex-end;
+           box-shadow: 2px 4px 5px gray;}
+.homeContent {background-color: white;
+              opacity: 0.85;
+              padding: 2% 2% 16% 2%;
+              box-shadow: 2px 4px 5px gray;
+              text-align: center;}
+.homePic {display: none;}
+.wordh3 {margin-top: 30%;}
+
+/* home page swirl decoration styling */
+.left {float:left;}
+.right {float: right;}
+.swirl1 {height: 750px;
+         width: 70px;
+         margin-top: 5%;}
+
+.centerImage {text-align: center;}
+
+/*about page styling*/
 .bor1 {margin-bottom: 0; padding-bottom: 8%;}
 .bor2 {margin-top: 0; padding-top: 8%;}
-
-/*first container on about page*/
 .aboutCon {
            align-items: center;
            text-align: center;
            margin-top: 5%;
            box-shadow: 2px 4px 15px #ff99ff;}
 
+/* moves container past the floated image */
 .aboutCon::after{content: "";
                  display: block;
                  clear:both;}
@@ -91,33 +96,35 @@ h3 {text-align: center; font-family: 'Berkshire Swash', cursive;}
             margin: 2%;}
 
 /*styling for my Experience (classes taken) on about page*/
+/* large container for background image */
 .exper {background-image: url(../images/beach.webp);
         background-size: cover;
         background-color: #ffe6ff;
         opacity: 0.6;
         padding: 5%;}
 
-.work {text-align: center;}
-.work p {margin: 2%; padding: 0 5%;}
-
-.classes {margin-left: 6%;}
-
+/* container that holds the text for the section with a solid background to make text readable */
 .aboutCon2 {display: flex;
             flex-wrap: wrap;
             margin: 0 9%;
             opacity: 0.9;
             background-color: white;}
+.prog {flex-basis: 100%;
+       padding: 5px;
+       text-shadow: 2px 2px white;
+       background-color: #e6ffe6;}
 
+.classes {margin-left: 6%;}
+.work {text-align: center;}
+.work p {margin: 2%; padding: 0 5%;}
+
+/* styling for hobbies section on about page */
 .hobbies {margin-bottom: 10%;
           border: 4px double #ffccff;
           box-shadow: 1px 2px 5px gray;
           padding: 5%;}
-.prog {flex-basis: 100%;
-       padding: 5px;
-       text-shadow: 2px 2px white;
-       /* margin-right: 23.5%; */
-       background-color: #e6ffe6;}
 
+/* about page swirl decor */
 .decor {text-align: center; margin-top: 8%;}
 .decor2 {text-align: center; margin-bottom: 8%;}
 .swirl {width: 1100px; height: 100px;}
@@ -135,17 +142,15 @@ h3 {text-align: center; font-family: 'Berkshire Swash', cursive;}
               text-align: center;
               margin-top: 10%;}
 .contactInfo p {font-size: 2em;}
-.swirlDiv {
-           margin-top: 5%;}
+/* contact page swirl decor */
+.swirlDiv {margin-top: 5%;}
 .conSwirl {height: 300px;}
+
 .email {color: #ff0066}
 .email:hover {color: #ff99ff;}
+
+/* icon styling */
 .fab {font-size: 4em;}
 .fa-instagram-square {color: #ff0066;
                       margin-right: 20px;}
 .fa-instagram-square:hover {color: pink;}
-
-/*push container past the floated image*/
-.border::after{content: "";
-               display: block;
-               clear:both;}
