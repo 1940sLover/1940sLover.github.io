@@ -14,63 +14,79 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- link to style sheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- link to responsive styles -->
+    <link rel="stylesheet" href="styles/responsiveStyles.css" media="screen and (max-width: 1160px)">
 
     <!-- link to special font -->
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+    <!-- link to font awesome -->
+    <script src="https://kit.fontawesome.com/b3b5b9887d.js" crossorigin="anonymous"></script>
 
     <title>Programs</title>
   </head>
   <body>
     <div class="border">
       <header>
-        <h1 class="display-1">My Programs</h1>
+        <h1 class="headerText display-1">My Websites</h1>
       </header>
       <nav class = "navigate">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
-        <a href="programs.html">Programs</a>
+        <a href="programs.html">Websites</a>
+        <a href="contact.html">Contact</a>
       </nav>
-      <h3>Websites I've  Built Using HTML and CSS</h3>
-      <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h3 class = "programSubHead">Websites I've  Built Using HTML and CSS</h3>
+      <div class="contain1">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/RESite.png" class="small card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bob Epler</h5>
+                <p class="card-text">
+                  This website I created for my father, who is a singer songwriter.
+                </p>
+                <a href="RobEplerMusic/index.html" class="more btn btn-lg active" role="button" aria-pressed="true" target="_blank">See Site</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/TDSite.png" class="small card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Travel Destination Website</h5>
+                <p class="card-text">Here is a simple one page travel destination website.</p>
+                <a href="ResponsiveTravel/index.html" class="more btn btn-lg active" role="button" aria-pressed="true" target="_blank">See Site</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/PPSite.png" class="small card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Parlor Website</h5>
+                <p class="card-text">Here is a website I created for a pizza parlor.</p>
+                <a href="PizzaParlor/menu.html" class="more btn btn-lg active" role="button" aria-pressed="true" target="_blank">See Site</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="images/HLSite.png" class="small card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bait Shop</h5>
+                <p class="card-text">Here is a website I created for a small bait shop.</p>
+                <a href="http://otcwebdev.net/summer2020/marye/" class="more btn btn-lg active" role="button" aria-pressed="true" target="_blank">See Site</a>
+              </div>
             </div>
           </div>
-        </div>
-      </div> <!--end of cards -->
+        </div> <!--end of cards -->
+      </div>
     </div>
+    <footer class = "foot">&copy; 2020 Mary Epler | Computer Science Major </footer>
 
 
     <!-- Optional JavaScript -->

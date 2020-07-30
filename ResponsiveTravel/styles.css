@@ -1,0 +1,50 @@
+/*
+  Name: Mary Epler
+  Date: June 30, 2020
+  Assignment: Responsive Travel
+  Filename: style.css
+*/
+
+/*Main content*/
+body {margin: 0;}
+header {text-align: center;
+        background-image: url(island.jpg);
+        padding: 4%;
+        background-size:cover;
+        background-attachment: fixed;
+        color: white;
+        font-size: 1.5em;
+        text-shadow: 2px 2px #2b486a;
+        font-family: 'Satisfy', cursive;}
+
+.subhead {display: none;}
+.facts {display: none;}
+
+
+.col {width: auto; text-align: center; margin-bottom: 70px;}
+img {width: 100%;}
+.whale {width: 50%; border: 4px solid #2b486a; margin-right: 2%;}
+h2 {text-align: center; font-size: 2em; color: #2b486a; margin-top: 50px; padding-top: 30px;}
+h3 {color: #5f2f4e;}
+p {font-size: 1.3em; line-height: 1.5; text-align: left;}
+
+/*styling for about cape cod paragraph*/
+.about {border: 6px solid #2b486a;
+        position: relative;
+        top: 100px;
+        background-color: #d2bba2;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+        clear:both;}
+
+.abouttext {line-height: 2; margin: 50px;}
+
+/*styling for places to stay*/
+.title {position: relative; top: 100px;}
+.stay, .stay2 {position: relative;
+               top: 90px;
+               width: 100%;
+               padding: 1%;
+               margin-bottom: 50px;}
+.stayText {text-align: center;}

@@ -1,0 +1,70 @@
+/* home page */
+.homeMain {background-image: none; justify-content: flex-start;}
+.homePic {display: block; width: 70%;}
+.homeContent {padding: 2%;}
+.wordh3 {margin-top: 1%;}
+
+/* about page */
+.swirl {width: 900px; height: 80px;}
+.aboutCon2 {margin-left: 2%;}
+
+
+@media screen and (max-width: 1020px)
+{
+  /* home page */
+  .homeMain {flex-wrap: wrap;}
+  .homePic {flex-basis: 100%;}
+  .homeContent {flex-basis: 100%;}
+
+}
+
+@media screen and (max-width: 955px)
+{
+  /* about page */
+  .swirl {width:700px;}
+  .aboutCon2 {margin-left: 3%;}
+
+  /* program page */
+  .small {height: 250px;}
+}
+
+@media screen and (max-width: 768px)
+{
+  /* about page */
+  .sidePhoto {float: none;}
+  .aboutHead {padding-top: 10px;}
+  .aboutCon p {padding-bottom: 15px;}
+  .swirl {width:600px; height: 60px;}
+  .aboutCon2 {margin-left: 7%;}
+  .centerSwirl {display: none;}
+}
+
+@media screen and (max-width: 635px)
+{
+  /* about page */
+  .swirl {width:500px; height: 50px;}
+  .swirl1 {display: none;}
+
+  /* program page */
+  .small {height: 300px;}
+}
+@media screen and (max-width: 610px)
+{
+  /* home page */
+  .headerText {font-size: 4em;}
+  .homeHead {font-size: 1.5em; text-shadow: 1px 1px black;}
+  .homeMain {margin: 2%;}
+
+
+  /* about page */
+  .aboutCon2 {margin-left: 1%;}
+}
+
+@media screen and (max-width: 536px)
+{
+  /* about page */
+  .swirl {width:400px; height: 40px;}
+
+  /* navigation tabs */
+  .navigate a {flex-basis: 100%; margin: 5px;}
+}

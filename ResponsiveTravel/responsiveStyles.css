@@ -1,0 +1,53 @@
+/*
+  Name: Mary Epler
+  Date: June 30, 2020
+  Assignment: Responsive Travel
+  Filename: responsiveStyle.css
+*/
+
+/*styling for fun facts*/
+.facts {display: block;
+        position: relative;
+        top: 150px;
+        left: 3%;
+        width: 90%;
+        margin-bottom: 100px;
+        border: 10px double #d2bba2;
+        padding-bottom: 30px;
+        background-color: #efede0;
+        clear:both;}
+ol {font-size: 1em; margin-left: 5px; line-height: 1.5;}
+.fas {color: yellow; font-size: 2em;}
+.subhead {display: block;}
+
+
+@media screen and (min-width: 850px)
+{
+  .col {width: 45%; float: left; padding: 2.5%; margin-bottom: 0px;}
+  .stay {width: 80%; margin-left: 10%;}
+  .stay2 {width: 45%; margin-left: 2%; float:left;}
+  .place1 {height: auto;}
+  img {height: 300px;}
+
+  ol {margin-left: 50px; font-size: 1.5em;}
+}
+
+@media screen and (min-width: 1200px)
+{
+  .facts {border-radius: 30%;}
+  .col {width: 23%; padding: 1%;}
+  img {height: 250px;}
+  .whale {float: right;
+          width: 25%;
+          height: auto;
+          margin-left: 2%;
+          height: 200px;}
+  .stay {float: left;}
+  .stay, .stay2 {width: 31.2%;
+                padding: 1%;
+                margin-left: 0px;}
+
+  .place1 {height: 250px;}
+
+  ol {margin-left: 100px;}
+}

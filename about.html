@@ -15,43 +15,55 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- link to style sheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- link to responsive styles -->
+    <link rel="stylesheet" href="styles/responsiveStyles.css" media="screen and (max-width: 1160px)">
 
     <!-- link to special font -->
     <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
 
+    <!-- link to font awesome -->
+    <script src="https://kit.fontawesome.com/b3b5b9887d.js" crossorigin="anonymous"></script>
+
     <title>About Me</title>
   </head>
   <body>
-    <div class="border">
+    <div class="border bor1">
       <header>
-        <h1 class="display-1">Mary Epler - Bio</h1>
+        <h1 class="headerText display-1">Mary Epler - Bio</h1>
       </header>
       <nav class = "navigate">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
-        <a href="programs.html">Programs</a>
+        <a href="programs.html">Websites</a>
+        <a href="contact.html">Contact</a>
       </nav>
       <div class="container aboutCon">
         <img class="sidePhoto" src="images/aboutMe.jpg" alt="">
         <div>
-          <h3>Bio</h3>
+          <h3 class = "aboutHead">Bio</h3>
           <p>
             I am Mary Epler. I am a 20 year old collage student majoring in computer science at OTC.
             After finishing at OTC in the spring of 2021, I will be transfering to MSU to complete my
             bachelor degree. If all goes a planned I will be graduating in May of 2023.
             Although I still have a long way to go in school, I have learned many programming languages
-            including: Python, C++, and C#. I am also skilled in html and css.
+            including: Python, C++, and C#. I am also skilled in html and css. After graduating I plan
+            on persuing a career in website development.
           </p>
           <p>Please check out some of my programs and websites</p>
         </div>
       </div>
-      <div class="exper">
-        <div class="container aboutCon2">
+      <div class="decor">
+        <img class = "swirl" src="images/pinkSwirl.png" alt="">
+      </div>
+    </div>
+    <div class="exper">
+      <div class="container aboutCon2">
         <h3 class = "prog">Programming Experience</h3>
         <div class = "classes">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Programming Classes Completed</li>
+            <li class="list-group-item"><b>Programming Classes Completed</b></li>
             <li class="list-group-item">CIS-101-202: TECHNOLOGY & DIGITAL LITERACY</li>
             <li class="list-group-item">CIS-120-101: INTRO TO COMPUTER PROGRAMMING</li>
             <li class="list-group-item">CSC-140-W01: C++ PROGRAMMING</li>
@@ -59,9 +71,9 @@
             <li class="list-group-item">CIS-130-W01: WEB SITE DEVELOPMENT I</li>
           </ul>
         </div>
-        <div>
+        <div class = "classes">
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Classes I Will Be Taking Over The Next Two Semester</li>
+            <li class="list-group-item"><b>Classes I Will Be Taking Over The Next Two Semester</b></li>
             <li class="list-group-item">CIS-250-101: DATABASE AND QUERY</li>
             <li class="list-group-item">CIS-151-101: C# PROGRAMMING II</li>
             <li class="list-group-item">CIS-131-W01: WEB SITE DEVELOPMENT II</li>
@@ -69,16 +81,28 @@
             <li class="list-group-item">CSC-210: DATA STRUCTURES</li>
           </ul>
         </div>
+        <div class="work">
+          <h4>Work Experience</h4>
+          <p>
+            Although I haven't worked at a job that allows me to use my programming knowledge,
+            I have tutored both math and logic, which are necessary skills to have
+            when working as a programmer.
+          </p>
         </div>
       </div>
+    </div>
+    <div class = "border bor2">
+      <div class="decor2">
+        <img class = "swirl" src="images/pinkSwirl.png" alt="">
+      </div>
       <div class=" container hobbies">
-        <h3>Hobbies</h3>
+        <h3>Hobbies and More</h3>
         <p>
           In my down time I definetely enjoy relaxing and watching tv as much as anybody
           but, the kind of televition  I enjoy is definetely unique, especially for a person of my age.
           Although I do enjoy many modern movies and recently made tv shows, my true love is for romantic comedies
-          made throught the late 1930s to the early 1960s and I believe that
-          tv shows dont come any better than the many lovable and classic sit-coms made
+          made through out the late 1930s to the early 1960s and I believe that
+          tv shows don't come any better than the many lovable and classic sit-coms made
           through out the eary 1950s and the 1960s.
         </p>
         <p>
@@ -87,8 +111,14 @@
           kind of semi scructured crafty activity.
           I am also a collector of vintage hats and have somewhat recently started a snow globe collection.
         </p>
+        <p>
+          I also love spending time with my amazing family, friends and pets.
+          I have two cats and a puppy. I am definetely a cat person but
+          the appeal of dogs certainly doesnt escape me.
+        </p>
       </div>
     </div>
+    <footer class = "foot">&copy; 2020 Mary Epler | Computer Science Major </footer>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

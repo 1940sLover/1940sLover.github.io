@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+      Name: Mary Epler
+      Date: 7/7/2020
+      Assignment: Cheech's Flexible Pizza Parlor
+      Filename: order.html
+    -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <!--link to spacial font-->
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap" rel="stylesheet">
+    <!--link to font awesome for star icon-->
+    <script src="https://kit.fontawesome.com/b3b5b9887d.js" crossorigin="anonymous"></script>
+    <title>Order</title>
+    </head>
+    <body>
+      <header>
+        <h1>Cheech's</h1>
+        <h1>Pizza Parlor</h1>
+      </header>
+      <nav>
+        <a href="">|| Home ||</a>
+        <a href="menu.html">|| Menu ||</a>
+        <a href="order.html">|| Order Online ||</a>
+        <a href="">|| Our Location ||</a>
+      </nav>
+      <div class="container">
+        <h2 class = "sub">~~~ Place an Order ~~~</h2>
+        <form action="thankyou.html" method="get">
+          <h2>Order Information</h2>
+          <input autofocus type="text" name="First_Name" required placeholder="First Name"/>
+          <input type="text" name="Last_Name" required placeholder="Last Name"/>
+          <input type="tel" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone: 123-456-7890"/>
+          <select name="Pizza">
+            <option value="">Select Pizza</option>
+            <option value="Peperoni">Peperoni</option>
+            <option value="Cheese">Cheese</option>
+            <option value="BBQ">BBQ Chicken</option>
+            <option value="Vegan">Vegan Kale Pesto</option>
+            <option value="Hawaiian">Hawaiian</option>
+            <option value="Garlic Mushroom Spinach">Garlic Mushroom Spinach</option>
+          </select>
+          <input type="number" name="Quantity" value="1" min="1">
+          <input class="submit" type="submit" value = "Submit"/>
+        </form>
+        <div class="col2">
+          <h2>Reviews</h2>
+          <div class="review">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <p>Best Pizza EVER!!</p>
+            <p>
+              I ordered the peperoni pizza and it was great! My girlfriend got
+              the vegan kale pizza and said it was fantastic!
+            </p>
+            <p>-Van Johnson</p>
+          </div>
+          <div class="contact">
+            <h2>Contact Us</h2>
+            <h3>Phone: 417-333-9876</h3>
+            <h3>Email: <a href="mailto:CheechsPizzaContact@CheechsPizza.com">CheechsPizzaContact@CheechsPizza.com</a></h3>
+          </div>
+          <div class="social">
+            <h2>Find Us On Social Media</h2>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-snapchat-square"></i>
+            <i class="fab fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+      <footer>&#169; 2020 Cheech's Pizza Parlor</footer>
+    </body>
+</html>
