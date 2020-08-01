@@ -75,3 +75,8 @@
   /* navigation tabs */
   .navigate a {flex-basis: 100%; margin: 5px;}
 }
+
+@media screen and (max-width: 450px)
+{
+    .homePic {width: 300px; height: 200px}
+}
